@@ -110,3 +110,49 @@ header{
    box-shadow: 2px 6px 5px black;
 
 }
+/* -----feedback start------- */
+#feedback{
+    padding: 5% 10%;
+    background-color: #5eaaa8;
+}
+.carousel-img{
+    width: 120px;
+    height: 120px;
+    margin-bottom: 10px;
+}   
+.carousel-item{
+    padding: 5% 15%;
+    text-align: center;
+    font-style: italic;
+    font-size: 1.2rem;
+}
+/* -----contact start here----- */
+#contact{
+    padding: 5% 10%;
+    background-color: #5eaaa8;
+}
+.form-group label{
+    font-weight: bold;
+    margin-bottom: 0;
+}
+/* -------footer start here----- */
+footer{
+    padding: 2% 10%;
+    background-color: #056676;
+}
+footer a{
+    color: white;
+    margin: 0 10px;
+    transition: 0.4s;
+}
+footer a:hover{
+    color: black;
+}
+@media(max-width:768px){
+    .banner-container h1{
+        font-size: 2rem;
+    }
+    .nav-link{
+        background: rgb(0, 0, 0, 0.6);
+    }
+}
